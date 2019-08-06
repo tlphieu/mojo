@@ -21,7 +21,7 @@ def side_coin(n):
   down_side = 0
   for i in range(n):
     side = random.random()
-    if side < 0.3 :
+    if side < 0.3:
         down_side+=1
     elif side < 0.7:
         down_side += 0
