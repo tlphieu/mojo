@@ -22,18 +22,19 @@ def side_coin(n):
   for i in range(n):
     side = random.random()
     if side < 0.3:
-        down_side+=1
+      down_side += 1
     elif side < 0.7:
-        down_side += 0
-        up_side +=0
-    elif side <=1:
-      up_side+=1
+      down_side += 0
+      up_side += 0
+    elif side <= 1:
+      up_side += 1
   
   return "upside: ", up_side, "downside: ", down_side
   
-side_coin(1000)
+
 
 
 
 
 #%%
+side_coin(1000)
